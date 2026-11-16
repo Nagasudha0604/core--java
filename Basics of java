@@ -36,3 +36,44 @@ next()                            sudha              string
 nextLine()                        Hello Java         string
 next().charAt(0)                   A                  char
 nextBoolean()                     true                Boolean
+Data Types Code:
+import java.util.Scanner;
+class data {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int age;
+        long salary;
+        float average;
+        double total;
+        String name;
+        System.out.println("Enter age: ");
+        age=sc.nextInt();
+        System.out.println("Enter Salary: ");
+        salary=sc.nextLong();
+        System.out.println("Enter average: ");
+        average=sc.nextFloat();
+        System.out.println("Enter total: ");
+        total=sc.nextDouble();
+        System.out.println("Enter name: ");
+        name=sc.next();
+        System.out.println("Age: "+age+"Salary: "+salary+"\tAverage: "+average+"\tTotal: "+total+"\tName: "+name);
+    }
+}
+OUTPUT:
+PS C:\Users\nagas\OneDrive\Desktop\java fullstack> javac data.java
+PS C:\Users\nagas\OneDrive\Desktop\java fullstack> java data
+Enter age:
+24
+Enter Salary:                                                       
+24000
+Enter average: 
+24
+Enter total: 
+240
+Enter name: 
+sudha
+Age: 24Salary: 24000    Average: 24.0   Total: 240.0    Name: sudha
+Topic-2 : ARITHMETIC OPERATORS
++,-,*,/,%,=
+1.Relational operators
+
