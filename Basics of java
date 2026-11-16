@@ -75,5 +75,22 @@ sudha
 Age: 24Salary: 24000    Average: 24.0   Total: 240.0    Name: sudha
 Topic-2 : ARITHMETIC OPERATORS
 +,-,*,/,%,=
-1.Relational operators
+1.Relational operators :
+Bitwise operators Code:
+import java.util.Scanner;
+class bitwise{
+public static void main(String[]args){
+Scanner obj=new Scanner(System.in);
+System.out.println("Enter a number:");
+int num=obj.nextInt();
+System.out.println("Enter a nandu:");
+int nandu=obj.nextInt();
+System.out.println("The number is:"+(num&nandu));
+System.out.println("The number is:"+(num|nandu));
+System.out.println("The number is:"+(~nandu));
+System.out.println("The number is:"+(num^nandu));
+System.out.println("The number is:"+(num<<nandu));
+System.out.println("The number is:"+(num>>nandu));
+}
+}
 
