@@ -5,7 +5,8 @@ Control Statements
     elseIf ladder                   Dowhile                     return
     Nested If
     Switch
-Condimport java.util.Scanner;
+Conditional statements example:
+import java.util.Scanner;
 public class conditional{
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
@@ -26,7 +27,7 @@ public class conditional{
         }
     }
 }
-grading example : 
+Grading example:
 import java.util.Scanner;
 public class grading {
     public static void main(String[] args){
@@ -52,14 +53,7 @@ public class grading {
         }
   }
 }
-output:
-PS C:\Users\nagas\OneDrive\Desktop\java fullstack> javac grading.java
-PS C:\Users\nagas\OneDrive\Desktop\java fullstack> java grading
-Grading program on student marks..
-Enter marks:
-65
-Grade:'D'
-Looping Statements example :
+Looping statements example:
 import java.util.Scanner;
 public class looping{
     public static void main(String[] args){
@@ -82,7 +76,104 @@ public class looping{
         }while(k <= 4);
     }
 }
-Switch case example :
+Switchcase example1 :
+import java.util.Scanner;
+public class switchcase{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("MITS College Branches:");
+        int a=sc.nextInt();
+        switch(a){
+            case 1:
+                System.out.println("Department of CSE");
+                break;
+            case 2:
+                System.out.println("Department of ECE");
+                break;
+            case 3:
+                System.out.println("Department of EEE");
+                break;
+            case 4:
+                System.out.println("Department of AIML");
+                break;
+            case 5:
+                System.out.println("Depertment of CAI");
+                break;
+            case 6:
+                System.out.println("Department of CSD");
+                break;
+            case 7:
+                System.out.println("Department of CST");
+                break;
+            case 8:
+                System.out.println("Department of Civil");
+                break;
+            case 9:
+                System.out.println("Department of Cyber Security");
+                break;
+            case 10:
+                System.out.println("Department of MBA");
+                break;
+            case 11:
+                System.out.println("Department of MCA");
+                break;
+            case 12:
+                System.out.println("BBA");
+                break;
+        }
+    }
+}
+Calculator example :
+import java.util.Scanner;
+public class calculator{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Calculator Implementation: ");
+        int value1=sc.nextInt();
+        switch(value1){
+            case 1:
+                System.out.println("+,Addition");
+                break;
+            case 2:
+                System.out.println("-,Substraction");
+                break;
+            case 3:
+                System.out.println("*,Multiplication");
+                break;
+            case 4:
+                System.out.println("/,Division");
+                break;
+            case 5:
+                System.out.println("log");
+                break;
+            case 6:
+                System.out.println("% Modulus");
+                break;
+            case 7:
+                System.out.println("Sin Theta");
+                break;
+            case 8:
+                System.out.println("Cos Theta");
+                break;
+            case 9:
+                System.out.println("ln");
+                break;
+            case 10:
+                System.out.println("Tan Theta");
+                break;
+            case 11:
+                System.out.println("Cot Theta");
+                break;
+            case 12:
+                System.out.println("AC");
+                break;
+            case 13:
+                System.out.println("Default");
+                break;
+        }
+    }
+}
+switchcase example2:
 import java.util.Scanner;
 public class switchcase{
     public static void main(String[] args){
@@ -129,3 +220,4 @@ public class switchcase{
         }
     }
 }
+
