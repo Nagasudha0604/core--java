@@ -5,3 +5,24 @@ Control Statements
     elseIf ladder                   Dowhile                     return
     Nested If
     Switch
+Condimport java.util.Scanner;
+public class conditional{
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter a value: ");
+        int a=obj.nextInt();
+        System.out.println("Enter b value: ");
+        int b=obj.nextInt();
+        System.out.println("Enter c value: ");
+        int c=obj.nextInt();
+        if(a>b && a>c){
+            System.out.println("Larger number is a");
+           }
+        else if(b>a && b>c){
+            System.out.println("Larger number is b");    
+        }
+        else{
+            System.out.println("Larger number is c");
+        }
+    }
+}
