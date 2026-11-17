@@ -26,3 +26,106 @@ public class conditional{
         }
     }
 }
+grading example : 
+import java.util.Scanner;
+public class grading {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Grading program on student marks..");
+        int marks;
+        System.out.println("Enter marks: ");
+        marks=sc.nextInt();
+        if(marks==100 && marks>=90){
+            System.out.println("Grade:'A'");
+        }
+        else if(marks<90 && marks>=80){
+            System.out.println("Grade:'B'");
+        }
+        else if(marks>=70 && marks<80){
+            System.out.println("Grade:'C'");
+        }
+        else if(marks>60){
+            System.out.println("Grade:'D'");
+        }
+        else{
+            System.out.println("Fail");
+        }
+  }
+}
+output:
+PS C:\Users\nagas\OneDrive\Desktop\java fullstack> javac grading.java
+PS C:\Users\nagas\OneDrive\Desktop\java fullstack> java grading
+Grading program on student marks..
+Enter marks:
+65
+Grade:'D'
+Looping Statements example :
+import java.util.Scanner;
+public class looping{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("for loop:");
+        for(int i=1;i<=4;i++){
+            System.out.println(i);
+        }
+        System.out.println("while loop");
+        int j=1;
+        while(j <= 4){
+            j++;
+            System.out.println(j);
+        }
+        System.out.println("Do while loop:");
+        int k=1;
+        do {
+            System.out.println(k);
+            k++;
+        }while(k <= 4);
+    }
+}
+Switch case example :
+import java.util.Scanner;
+public class switchcase{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a value:");
+        int a=sc.nextInt();
+        switch(a){
+            case 1:
+                System.out.println("It's January");
+                break;
+            case 2:
+                System.out.println("It's February");
+                break;
+            case 3:
+                System.out.println("It's March");
+                break;
+            case 4:
+                System.out.println("It's April");
+                break;
+            case 5:
+                System.out.println("It's May");
+                break;
+            case 6:
+                System.out.println("It's June");
+                break;
+            case 7:
+                System.out.println("It's July");
+                break;
+            case 8:
+                System.out.println("It's August");
+                break;
+            case 9:
+                System.out.println("It's September");
+                break;
+            case 10:
+                System.out.println("It's October");
+                break;
+            case 11:
+                System.out.println("It's November");
+                break;
+            case 12:
+                System.out.println("It's December");
+                break;
+        }
+    }
+}
