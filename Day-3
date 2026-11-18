@@ -1,0 +1,19 @@
+String : Collection of sequence of characters
+String Methods:
+1. length() : returns the number of characters in a string.
+example : String s = "Java";
+          System.out.println(s.length());
+output: '4'
+2. charAt() : returns the character at a specified index.
+example : String s = "Java";
+6. equalsIgnoreCase() : Compares Strings without considering uppercase or lowercase differences.
+example: String a = "JAVA";
+         String b = "java";
+         System.out.println(a.equalsIgnoreCase(b));
+output : 'true'
+7. substring() : Extracts a part of a string.
+example : String s = "Programming";
+          System.out.println(s.substring(0,4));
+output : 'prog'
+8. replace() : Replaces characters or character sequences.
+example : 
