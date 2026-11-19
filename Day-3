@@ -17,3 +17,19 @@ example : String s = "Programming";
 output : 'prog'
 8. replace() : Replaces characters or character sequences.
 example : 
+
+
+INSCEPT:length(),chatAt(),isEmpty() and isBlank()-for spaces
+
+Extraction by index:
+1.subString()=str.subString(start,end)
+2.indexOf()=str.indexOf("string")
+
+Compare:
+1.equals()-str.equals(str1)
+2.compareTo()-str.compareTo(str1)
+
+Find:
+1.contains()=str.contains("@")
+2.startswith()=str.startswith("prefix")
+3.endwith()=str.endswith("suffix")
