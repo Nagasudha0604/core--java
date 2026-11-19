@@ -1,0 +1,28 @@
+OOPS
+Types of classes:
+1)concrete class
+2)Abstract class
+3)Final class
+4)Static Nested class
+5)Inner class
+6)Local class
+7)Anonymous class
+8)Enum(Enumerate) class
+9)Interface class
+
+1)Concrete class : A concrete class is a regular class that can be used to create the objects.
+Constructor : Special type of a function,used to initialize the objects and it consists of same name as class name.
+Constructor three types : 
+1.Parameterized 
+2.Non Parameterized 
+3. Default Parameter
+Access Modifiers four types : 
+1. public 
+2. Private
+3. Protected
+4. Default
+ Functions : 
+1. With parameters , With return type
+2. With paramaters , Without return type 
+3. Without parameters, With return type 
+4. Without parameters , Without return type
