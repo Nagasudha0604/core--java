@@ -26,3 +26,81 @@ Access Modifiers four types :
 2. With paramaters , Without return type 
 3. Without parameters, With return type 
 4. Without parameters , Without return type
+
+Building blocks of OOPS :
+1.Encapsulation : Wrapping of data
+2.Polymorphism
+3.Data Abstraction
+4.Inheritance
+
+Inheritance : Aquiring the properties & behavious from one class to another class.
+Inheritance 5 types : 
+
+1.Single Inheritance : 
+syntax :
+class A {
+//Block of code
+}
+class B extends from class A{
+//Block of code
+}
+class main{
+    psvm {
+    //obj
+   }
+}
+
+2.Multi-Level Inheritance :
+syntax :
+class A {
+//Block of code
+}
+class B extends from class A{
+//Block of code
+}
+class C extends from class B{
+//Block of code
+}
+class main{
+    psvm {
+    //obj
+   }
+}
+
+3.Multiple Inheritance :
+syntax :
+Interface A{
+//Block of code
+}
+Interface B{
+//Block of code
+}
+class c implements A,B{
+//Block of code
+}
+class main{
+    psvm {
+    //obj
+   }
+}
+
+4.Hierarichal Inheritance :
+syntax :
+class A{
+//Block of code
+}
+class B extends from class A{
+//Block of code
+}
+class c extends class A{
+//Block of code
+}
+class main{
+    psvm {
+    //obj
+   }
+}
+
+
+
+
